@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058222EFE1FA141D9B4E9DEF /* DeckTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085AACA8F249622AB577656B /* DeckTextures.swift */; };
+		2B512706DB3B19030B221590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5709A6263CD8B524703E150 /* Assets.xcassets */; };
+		2E943097502CFB26FB3F556F /* ChunkSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADE5764265D95D8594A0F /* ChunkSpawner.swift */; };
+		30AEAD572408DEFFE4C7BF11 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 050BAD73D2E39A6B81F31C3F /* Alamofire */; };
+		3745F8D558AA17B093BA54ED /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599819B07CB853285D881A7 /* APIConfig.swift */; };
+		588D2B9D52B505D7A4ACC589 /* GameSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB40BBECBB5DBDA8D48A9E /* GameSimulation.swift */; };
+		59D028D045161DEC92E3630D /* DeckLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96637E80D60DD96EB8AF0533 /* DeckLane.swift */; };
+		6141245CC37D7E18506D028D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65791FC34E8FACD1CE6ACE7B /* ContentView.swift */; };
+		909FC68DCF62CD2F5D3986A9 /* RecordsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C695F4EC7F8162BE901E3A /* RecordsSheetView.swift */; };
+		9363235C1AD3BE6A3C1D119F /* HawserrunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CD7A9302F5CE59BCFE6B7 /* HawserrunApp.swift */; };
+		A8617E5544C6F3E0133B5D2A /* ChapterBuoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0081A393A59627822B4D7A /* ChapterBuoy.swift */; };
+		ADB8D7C5545FCFD6E121FAA6 /* FerryScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E6B8334ADF11657112D1C /* FerryScene.swift */; };
+		AF05BBC090867B772CD72CD3 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777746AB1EF6FC05E28BC36 /* ReviewLaunch.swift */; };
+		B484E5F58F9BE9AE786B7D69 /* SettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46445EE6F20C063F208C3F4D /* SettingsSheetView.swift */; };
+		B662AFDE4D7ABD56FC315303 /* SprayLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F749C5B876126E35CF266 /* SprayLayer.swift */; };
+		BB0EC4478F511CAF989A7761 /* CargoCrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012AACD8C06840CEFB4E980 /* CargoCrate.swift */; };
+		BD581579F079866AC76B7530 /* DesignTokens+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17FB7310C0D418D0227D01 /* DesignTokens+UIKit.swift */; };
+		BF79A746726CDC07FE94BDA7 /* PauseOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09308AC1523C712A93369D62 /* PauseOverlayView.swift */; };
+		C55AEED07E45B12E48406798 /* HornCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362C70B3E83C8FC90283582E /* HornCue.swift */; };
+		CA9682310569D63986DCB4E4 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F286E6918B8FA41CAE4E /* DesignTokens.swift */; };
+		CFB2A6DD9AC535760D7BAA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E51A1F89F8BD6DE0878D16 /* AppDelegate.swift */; };
+		D6CFAE4724D9578D9C9869DE /* MooringChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13457129ED7F6A14F37C69C /* MooringChunk.swift */; };
+		DEF41BD793654D9CEE31C8C0 /* HeroNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF69169DCD508839CEAC7C13 /* HeroNode.swift */; };
+		E498253EE728C39DA86B2E09 /* HawserrunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B074816FBD74C0926BD0B4 /* HawserrunTests.swift */; };
+		E4D2572CBE72A66570C92556 /* RunRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E82E03C0FB33CF95E49AC9 /* RunRecord.swift */; };
+		ED9017C7EEAEA722B98DB1A5 /* DeckTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589AA962A8576D5B68D1FC7 /* DeckTone.swift */; };
+		EF3D8BE31DA89F3AEC9812AE /* HeelGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74244B2090BB51ABF16B69 /* HeelGauge.swift */; };
+		FE8774929D96B4043CB13E78 /* HawserLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9060638BF95D8D017555F /* HawserLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33AB285E136F5DE03920752B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B3F70DE078DA9F3A7F8951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0A8B4D51A6517869C5E653;
+			remoteInfo = Hawserrun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0012AACD8C06840CEFB4E980 /* CargoCrate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoCrate.swift; sourceTree = "<group>"; };
+		085AACA8F249622AB577656B /* DeckTextures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTextures.swift; sourceTree = "<group>"; };
+		09308AC1523C712A93369D62 /* PauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseOverlayView.swift; sourceTree = "<group>"; };
+		1B17FB7310C0D418D0227D01 /* DesignTokens+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignTokens+UIKit.swift"; sourceTree = "<group>"; };
+		34E82E03C0FB33CF95E49AC9 /* RunRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunRecord.swift; sourceTree = "<group>"; };
+		362C70B3E83C8FC90283582E /* HornCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornCue.swift; sourceTree = "<group>"; };
+		461CD7A9302F5CE59BCFE6B7 /* HawserrunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawserrunApp.swift; sourceTree = "<group>"; };
+		46445EE6F20C063F208C3F4D /* SettingsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetView.swift; sourceTree = "<group>"; };
+		4D0081A393A59627822B4D7A /* ChapterBuoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterBuoy.swift; sourceTree = "<group>"; };
+		5599819B07CB853285D881A7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		59CB40BBECBB5DBDA8D48A9E /* GameSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSimulation.swift; sourceTree = "<group>"; };
+		5F0E6B8334ADF11657112D1C /* FerryScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryScene.swift; sourceTree = "<group>"; };
+		63E51A1F89F8BD6DE0878D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65791FC34E8FACD1CE6ACE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70C695F4EC7F8162BE901E3A /* RecordsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsSheetView.swift; sourceTree = "<group>"; };
+		7219F286E6918B8FA41CAE4E /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		7589AA962A8576D5B68D1FC7 /* DeckTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTone.swift; sourceTree = "<group>"; };
+		8D74244B2090BB51ABF16B69 /* HeelGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeelGauge.swift; sourceTree = "<group>"; };
+		96637E80D60DD96EB8AF0533 /* DeckLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLane.swift; sourceTree = "<group>"; };
+		98B074816FBD74C0926BD0B4 /* HawserrunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawserrunTests.swift; sourceTree = "<group>"; };
+		A5709A6263CD8B524703E150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2F749C5B876126E35CF266 /* SprayLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprayLayer.swift; sourceTree = "<group>"; };
+		C93ADE5764265D95D8594A0F /* ChunkSpawner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkSpawner.swift; sourceTree = "<group>"; };
+		CF69169DCD508839CEAC7C13 /* HeroNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroNode.swift; sourceTree = "<group>"; };
+		D13457129ED7F6A14F37C69C /* MooringChunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooringChunk.swift; sourceTree = "<group>"; };
+		D1F9060638BF95D8D017555F /* HawserLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawserLayer.swift; sourceTree = "<group>"; };
+		DA3CC819BCB4387673A9A65C /* Hawserrun.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Hawserrun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10AD3E337F02828760CCF9C /* HawserrunTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HawserrunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777746AB1EF6FC05E28BC36 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		716B3BAA4FA899005FC0FFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AEAD572408DEFFE4C7BF11 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5C127BA0F53AD510881FAC /* GameSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				59CB40BBECBB5DBDA8D48A9E /* GameSimulation.swift */,
+			);
+			path = GameSimulation;
+			sourceTree = "<group>";
+		};
+		16D91F440E42DBFCF5DF03D3 = {
+			isa = PBXGroup;
+			children = (
+				78AA27E85D7FC438CB0CB6AD /* Hawserrun */,
+				AAB158930507AD223A6FA398 /* HawserrunTests */,
+				16FF7E6FA9EC3BEB275E00AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16FF7E6FA9EC3BEB275E00AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3CC819BCB4387673A9A65C /* Hawserrun.app */,
+				E10AD3E337F02828760CCF9C /* HawserrunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D68DB67E0D27065B2A0CB3 /* HeroNode */ = {
+			isa = PBXGroup;
+			children = (
+				CF69169DCD508839CEAC7C13 /* HeroNode.swift */,
+			);
+			path = HeroNode;
+			sourceTree = "<group>";
+		};
+		3080B94D92CA964BBBEB8A53 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				4D0081A393A59627822B4D7A /* ChapterBuoy.swift */,
+				8D74244B2090BB51ABF16B69 /* HeelGauge.swift */,
+				09308AC1523C712A93369D62 /* PauseOverlayView.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		6D02981311023368CF67A216 /* ChunkSpawner */ = {
+			isa = PBXGroup;
+			children = (
+				0012AACD8C06840CEFB4E980 /* CargoCrate.swift */,
+				C93ADE5764265D95D8594A0F /* ChunkSpawner.swift */,
+				D13457129ED7F6A14F37C69C /* MooringChunk.swift */,
+			);
+			path = ChunkSpawner;
+			sourceTree = "<group>";
+		};
+		74C2C68CADE7B742C00775B2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				46445EE6F20C063F208C3F4D /* SettingsSheetView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		78AA27E85D7FC438CB0CB6AD /* Hawserrun */ = {
+			isa = PBXGroup;
+			children = (
+				5599819B07CB853285D881A7 /* APIConfig.swift */,
+				63E51A1F89F8BD6DE0878D16 /* AppDelegate.swift */,
+				A5709A6263CD8B524703E150 /* Assets.xcassets */,
+				65791FC34E8FACD1CE6ACE7B /* ContentView.swift */,
+				7219F286E6918B8FA41CAE4E /* DesignTokens.swift */,
+				1B17FB7310C0D418D0227D01 /* DesignTokens+UIKit.swift */,
+				461CD7A9302F5CE59BCFE6B7 /* HawserrunApp.swift */,
+				E777746AB1EF6FC05E28BC36 /* ReviewLaunch.swift */,
+				6D02981311023368CF67A216 /* ChunkSpawner */,
+				D66E82112217F0126A069E51 /* FerryScene */,
+				0B5C127BA0F53AD510881FAC /* GameSimulation */,
+				21D68DB67E0D27065B2A0CB3 /* HeroNode */,
+				3080B94D92CA964BBBEB8A53 /* HUD */,
+				AA8D28D69AE975CEEE453E3C /* RunRecord */,
+				74C2C68CADE7B742C00775B2 /* Settings */,
+			);
+			path = Hawserrun;
+			sourceTree = "<group>";
+		};
+		AA8D28D69AE975CEEE453E3C /* RunRecord */ = {
+			isa = PBXGroup;
+			children = (
+				70C695F4EC7F8162BE901E3A /* RecordsSheetView.swift */,
+				34E82E03C0FB33CF95E49AC9 /* RunRecord.swift */,
+			);
+			path = RunRecord;
+			sourceTree = "<group>";
+		};
+		AAB158930507AD223A6FA398 /* HawserrunTests */ = {
+			isa = PBXGroup;
+			children = (
+				98B074816FBD74C0926BD0B4 /* HawserrunTests.swift */,
+			);
+			path = HawserrunTests;
+			sourceTree = "<group>";
+		};
+		D66E82112217F0126A069E51 /* FerryScene */ = {
+			isa = PBXGroup;
+			children = (
+				96637E80D60DD96EB8AF0533 /* DeckLane.swift */,
+				085AACA8F249622AB577656B /* DeckTextures.swift */,
+				7589AA962A8576D5B68D1FC7 /* DeckTone.swift */,
+				5F0E6B8334ADF11657112D1C /* FerryScene.swift */,
+				D1F9060638BF95D8D017555F /* HawserLayer.swift */,
+				362C70B3E83C8FC90283582E /* HornCue.swift */,
+				BA2F749C5B876126E35CF266 /* SprayLayer.swift */,
+			);
+			path = FerryScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4F2892852032ADCF0E1F8F /* HawserrunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34162195EEA2A4C83DE64626 /* Build configuration list for PBXNativeTarget "HawserrunTests" */;
+			buildPhases = (
+				56257256C24511517D86E9E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBF706FED0F1C3052145181 /* PBXTargetDependency */,
+			);
+			name = HawserrunTests;
+			packageProductDependencies = (
+			);
+			productName = HawserrunTests;
+			productReference = E10AD3E337F02828760CCF9C /* HawserrunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB0A8B4D51A6517869C5E653 /* Hawserrun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD6986F97E6DD941AC102A7 /* Build configuration list for PBXNativeTarget "Hawserrun" */;
+			buildPhases = (
+				0AAB80D80AB95C5B3BAD4CAA /* Sources */,
+				1AC41AF9B8E41CDA1C387882 /* Resources */,
+				716B3BAA4FA899005FC0FFB6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hawserrun;
+			packageProductDependencies = (
+				050BAD73D2E39A6B81F31C3F /* Alamofire */,
+			);
+			productName = Hawserrun;
+			productReference = DA3CC819BCB4387673A9A65C /* Hawserrun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B3F70DE078DA9F3A7F8951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F4F2892852032ADCF0E1F8F = {
+						ProvisioningStyle = Automatic;
+					};
+					AB0A8B4D51A6517869C5E653 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99AD4027DB554A36A9FE034E /* Build configuration list for PBXProject "Hawserrun" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 16D91F440E42DBFCF5DF03D3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9528F874AD3D59B1D6650A37 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16FF7E6FA9EC3BEB275E00AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0A8B4D51A6517869C5E653 /* Hawserrun */,
+				4F4F2892852032ADCF0E1F8F /* HawserrunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC41AF9B8E41CDA1C387882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B512706DB3B19030B221590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAB80D80AB95C5B3BAD4CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3745F8D558AA17B093BA54ED /* APIConfig.swift in Sources */,
+				CFB2A6DD9AC535760D7BAA6F /* AppDelegate.swift in Sources */,
+				BB0EC4478F511CAF989A7761 /* CargoCrate.swift in Sources */,
+				A8617E5544C6F3E0133B5D2A /* ChapterBuoy.swift in Sources */,
+				2E943097502CFB26FB3F556F /* ChunkSpawner.swift in Sources */,
+				6141245CC37D7E18506D028D /* ContentView.swift in Sources */,
+				59D028D045161DEC92E3630D /* DeckLane.swift in Sources */,
+				058222EFE1FA141D9B4E9DEF /* DeckTextures.swift in Sources */,
+				ED9017C7EEAEA722B98DB1A5 /* DeckTone.swift in Sources */,
+				BD581579F079866AC76B7530 /* DesignTokens+UIKit.swift in Sources */,
+				CA9682310569D63986DCB4E4 /* DesignTokens.swift in Sources */,
+				ADB8D7C5545FCFD6E121FAA6 /* FerryScene.swift in Sources */,
+				588D2B9D52B505D7A4ACC589 /* GameSimulation.swift in Sources */,
+				FE8774929D96B4043CB13E78 /* HawserLayer.swift in Sources */,
+				9363235C1AD3BE6A3C1D119F /* HawserrunApp.swift in Sources */,
+				EF3D8BE31DA89F3AEC9812AE /* HeelGauge.swift in Sources */,
+				DEF41BD793654D9CEE31C8C0 /* HeroNode.swift in Sources */,
+				C55AEED07E45B12E48406798 /* HornCue.swift in Sources */,
+				D6CFAE4724D9578D9C9869DE /* MooringChunk.swift in Sources */,
+				BF79A746726CDC07FE94BDA7 /* PauseOverlayView.swift in Sources */,
+				909FC68DCF62CD2F5D3986A9 /* RecordsSheetView.swift in Sources */,
+				AF05BBC090867B772CD72CD3 /* ReviewLaunch.swift in Sources */,
+				E4D2572CBE72A66570C92556 /* RunRecord.swift in Sources */,
+				B484E5F58F9BE9AE786B7D69 /* SettingsSheetView.swift in Sources */,
+				B662AFDE4D7ABD56FC315303 /* SprayLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56257256C24511517D86E9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498253EE728C39DA86B2E09 /* HawserrunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBF706FED0F1C3052145181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0A8B4D51A6517869C5E653 /* Hawserrun */;
+			targetProxy = 33AB285E136F5DE03920752B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088B4DEABD5D6B034A89260B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawserrun.deck.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawserrun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hawserrun";
+			};
+			name = Debug;
+		};
+		1BC4296C5457EB1C35444B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawserrun.deck.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawserrun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hawserrun";
+			};
+			name = Release;
+		};
+		21AAD320787C450B96CFE407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		60065817A14563E01173FB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickogronda;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawserrun.deck;
+				PRODUCT_NAME = Hawserrun;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA1F2C99B1B922EA4ACD3325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickogronda;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawserrun.deck;
+				PRODUCT_NAME = Hawserrun;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB9C195E667CC122FD1FB885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34162195EEA2A4C83DE64626 /* Build configuration list for PBXNativeTarget "HawserrunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088B4DEABD5D6B034A89260B /* Debug */,
+				1BC4296C5457EB1C35444B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99AD4027DB554A36A9FE034E /* Build configuration list for PBXProject "Hawserrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9C195E667CC122FD1FB885 /* Debug */,
+				21AAD320787C450B96CFE407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD6986F97E6DD941AC102A7 /* Build configuration list for PBXNativeTarget "Hawserrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60065817A14563E01173FB1F /* Debug */,
+				BA1F2C99B1B922EA4ACD3325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9528F874AD3D59B1D6650A37 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/seanmarcusross-hue/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = eebc9adac38a4f09deb55753419c2c97e07aca67;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		050BAD73D2E39A6B81F31C3F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9528F874AD3D59B1D6650A37 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 90B3F70DE078DA9F3A7F8951 /* Project object */;
+}

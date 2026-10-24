@@ -1,0 +1,12 @@
+Version 1.0 is the first release of Chickogronda, a one-touch ferry-deck runner.
+
+• Tap to hop. Hold, then release, for a longer leap along mooring plates towards the next horn.
+• Cargo crates shorten the jump and fill the "HEEL" bar, up to a full bar. Heel sway moves the marker and changes how forgiving a landing is.
+• Four chapters, marked "CH". A chapter card appears at each step, and again at the final horn on chapter 4.
+• The live score sits next to "HEEL". The chapter card shows "Score" above "Continue".
+• Pause and resume from the top icon or from "Resume" on the pause card titled "Paused".
+• "Records" shows "Best score", "Highest chapter", and "Peak cargo". They start at 0 and stay on this device.
+• "Settings" includes "Best runs stay on this device.", "Contact", and "Reset". "Reset" clears the saved bests and starts a fresh deck, with no confirmation.
+• Opening lines: "Cross to the next horn" and "Tap hops. Hold, then release, for a long gap."
+
+A miss drops between the plates, or a strike on a hazard ends the run the same way. After a brief hold, the deck starts again from the beginning. Quitting the app does not restore an unfinished run.

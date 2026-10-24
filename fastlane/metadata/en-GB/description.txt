@@ -1,0 +1,13 @@
+Chickogronda is a one-touch ferry-deck runner. You hop along mooring plates towards the next horn, picking up cargo that makes each leap shorter. It is a dark, full-screen game for short runs, a heel readout, and best scores kept on the phone or iPad.
+
+• Tap to hop. Hold, then release, for a longer leap.
+• Cargo shortens the jump, shown on the "HEEL" bar, up to a full bar.
+• Heel sway moves the marker on that bar and changes how forgiving a landing is.
+• Four chapters, marked "CH", with a chapter card and a horn at each step, plus a final horn on chapter 4.
+• A live score sits next to "HEEL". The chapter card shows "Score" and the current score above "Continue".
+• Pause from the top icon. "Resume" continues the same run. The pause card is titled "Paused" and says "The run is holding."
+• "Records" lists "Best score", "Highest chapter", and "Peak cargo".
+• "Settings" says "Best runs stay on this device." It includes "Contact" and "Reset".
+• For the first few seconds, the sky shows "Cross to the next horn" and "Tap hops. Hold, then release, for a long gap."
+
+A cold launch goes straight onto the deck in chapter 1. There is no onboarding. English only, for iPhone and iPad, on iOS 17.0 or later.

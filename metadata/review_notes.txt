@@ -1,0 +1,15 @@
+No permissions appear, and the build has no usage-description strings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt. "Reset" clears saved bests only. It is not an account deletion.
+
+Chickogronda is a one-touch ferry-deck runner for someone who wants short runs, a heel readout, and best scores kept on the phone or iPad. You hop along mooring plates toward the next horn, and cargo makes each leap shorter. It is a dark, full-screen game in English for iPhone and iPad.
+
+No credentials or demo account are needed. On a cold launch, the system launch screen goes straight onto the deck, already moving in chapter 1. There is no onboarding. For the first few seconds, the sky shows "Cross to the next horn" and "Tap hops. Hold, then release, for a long gap." The top of the screen shows "HEEL" with the current score, "CH" with the chapter number, and a pause icon. Press and release anywhere on the deck to jump. A short press is a hop. Holding, then releasing, commits a longer leap. Cargo crates can be collected while running. When a chapter is reached, a card titled "Chapter" plus the number (2, 3, or 4) covers the deck. Chapter 2 reads "Each crate cuts the jump. Short gaps still fit." Chapter 3 reads "The long gap clears only while you are light." Chapter 4, including the final horn, reads "Final horn. Weight still decides the leap." "Score" and the current score sit above "Continue". "Continue" dismisses the card and the same run goes on. Tap the pause icon to open the pause card, titled "Paused", with the line "The run is holding." "Resume" closes the card and continues the same run. "Records" opens a sheet titled "Records" with "Best score", "Highest chapter", and "Peak cargo". "Close" returns to the pause card. Before any chapter or miss, those three numbers are 0. "Settings" opens a sheet titled "Settings" with "Best runs stay on this device.", "Contact", "Reset", and "Close". "Reset" clears the saved bests, starts a fresh deck, and closes Settings, with no confirmation. The pause icon does nothing while a chapter card is up or during the short freeze after a miss. Presses do not jump while "Paused" is showing, while a chapter card is showing, or while the runner is falling. A miss has no game over label: the runner drops, then the deck reloads at the start. A paused run can be resumed with "Resume" in that same session. Quitting the app does not restore the unfinished run.
+
+Best runs stay on this device. "Contact" in Settings opens the support page.
+
+The app is English only and has no region lock. iPhone supports portrait, landscape left, and landscape right. iPad also supports upside down.
+
+No licence or regulated-industry paperwork applies. This is an arcade runner, not a regulated product or service.
+
+The app shows no health, medical, or product-health information and gives no recommendations. It does not scan barcodes or QR codes.
